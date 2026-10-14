@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Giovani Messias, desenvolvedor web com foco em PHP, Laravel e tecnologias web.">
+  <title>Giovani Messias | Desenvolvedor Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Giovani Messias - início"><span class="brand-mark">GM</span><span>GIOVANI<span class="brand-accent">.DEV</span></span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Navegação principal">
+      <a href="#inicio">Início</a><a href="#tecnologias">Tecnologias</a><a href="#sobre">Sobre</a><a class="nav-contact" href="#contato">Contato ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> DISPONÍVEL PARA OPORTUNIDADES</p>
+        <h1>Transformando<br>código em <span class="gradient-text">soluções<br class="desktop-break"> extraordinárias.</span></h1>
+        <p class="hero-description">Olá, eu sou <strong>Giovani Messias</strong>, desenvolvedor web. Construo aplicações e APIs com foco em código organizado, aprendizado contínuo e soluções que resolvem problemas reais.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#contato">Vamos conversar <span>↗</span></a></div>
+        <div class="hero-stack"><b>PHP</b><i>•</i><b>Laravel</b><i>•</i><b>JavaScript</b></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Ilustração abstrata de um guardião digital">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="hero-emblem"><div class="emblem-core">GM<span>✦</span></div></div>
+        <div class="floating-code code-one">&lt;?php</div><div class="floating-code code-two">{ API }</div><div class="floating-code code-three">0101<span>01</span></div>
+        <div class="art-caption"><span class="caption-line"></span><span>HUMANO + TECNOLOGIA</span></div>
+      </div>
+      <a class="scroll-cue" href="#tecnologias"><span></span> ROLE PARA DESCOBRIR</a>
+    </section>
+
+    <section class="technology section-wrap" id="tecnologias">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">MEU ESQUADRÃO DIGITAL</p><h2>Um poder para <span class="gradient-text">cada desafio.</span></h2></div>
+        <p>Cada tecnologia tem sua especialidade. Juntas, elas ajudam a tirar ideias do papel e construir soluções.</p>
+      </div>
+
+      <!-- BOTÕES DE FILTRO -->
+      <div class="tech-filters reveal">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="back-end">Back-end</button>
+        <button class="filter-btn" data-filter="framework">Frameworks</button>
+        <button class="filter-btn" data-filter="database">Banco de Dados</button>
+        <button class="filter-btn" data-filter="front-end">Front-end</button>
+      </div>
+
+      <div class="tech-grid">
+        <article class="tech-card reveal" data-category="back-end" style="--accent:#a855f7;--delay:0ms"><div class="card-top"><span class="power-icon">₱</span><span class="power-level">01 / BACK-END</span></div><div class="avatar avatar-php"><span>ϟ</span></div><h3>PHP</h3><p>O guardião do servidor</p><div class="card-bottom"><span>APLICAÇÕES WEB</span><span class="card-arrow">↗</span></div></article>
+        <article class="tech-card reveal" data-category="framework" style="--accent:#ff526e;--delay:60ms"><div class="card-top"><span class="power-icon">L</span><span class="power-level">02 / FRAMEWORK</span></div><div class="avatar avatar-laravel"><span>✦</span></div><h3>Laravel</h3><p>O arquiteto de soluções</p><div class="card-bottom"><span>APIS • MVC</span><span class="card-arrow">↗</span></div></article>
+        <article class="tech-card reveal" data-category="framework" style="--accent:#f97316;--delay:120ms"><div class="card-top"><span class="power-icon">CI</span><span class="power-level">03 / FRAMEWORK</span></div><div class="avatar avatar-ci"><span>⚡</span></div><h3>CodeIgniter</h3><p>O velocista eficiente</p><div class="card-bottom"><span>PHP • MVC</span><span class="card-arrow">↗</span></div></article>
+        <article class="tech-card reveal" data-category="front-end" style="--accent:#34d399;--delay:180ms"><div class="card-top"><span class="power-icon">{ }</span><span class="power-level">04 / TEMPLATES</span></div><div class="avatar avatar-smarty"><span>✧</span></div><h3>SmartyPHP</h3><p>O mestre das interfaces</p><div class="card-bottom"><span>TEMPLATING</span><span class="card-arrow">↗</span></div></article>
+        <article class="tech-card reveal" data-category="front-end" style="--accent:#facc15;--delay:240ms"><div class="card-top"><span class="power-icon">JS</span><span class="power-level">05 / FRONT-END</span></div><div class="avatar avatar-js"><span>ϟ</span></div><h3>JavaScript</h3><p>O manipulador de energia</p><div class="card-bottom"><span>INTERATIVIDADE</span><span class="card-arrow">↗</span></div></article>
+        <article class="tech-card reveal" data-category="database" style="--accent:#60a5fa;--delay:300ms"><div class="card-top"><span class="power-icon">DB</span><span class="power-level">06 / DATABASE</span></div><div class="avatar avatar-mysql"><span>◈</span></div><h3>MySQL</h3><p>O guardião dos dados</p><div class="card-bottom"><span>SQL • RELACIONAL</span><span class="card-arrow">↗</span></div></article>
+        <article class="tech-card reveal" data-category="database" style="--accent:#38bdf8;--delay:360ms"><div class="card-top"><span class="power-icon">PG</span><span class="power-level">07 / DATABASE</span></div><div class="avatar avatar-pg"><span>◉</span></div><h3>PostgreSQL</h3><p>O estrategista dos dados</p><div class="card-bottom"><span>SQL • CONSULTAS</span><span class="card-arrow">↗</span></div></article>
+        <article class="tech-card reveal" data-category="back-end" style="--accent:#f87171;--delay:420ms"><div class="card-top"><span class="power-icon">⌘</span><span class="power-level">08 / VERSIONAMENTO</span></div><div class="avatar avatar-git"><span>⑂</span></div><h3>Git</h3><p>O mestre das linhas do tempo</p><div class="card-bottom"><span>VERSÃO • COLABORAÇÃO</span><span class="card-arrow">↗</span></div></article>
+        <article class="tech-card reveal" data-category="back-end" style="--accent:#86efac;--delay:480ms"><div class="card-top"><span class="power-icon">SB</span><span class="power-level">09 / JAVA</span></div><div class="avatar avatar-spring"><span>❋</span></div><h3>Spring Boot</h3><p>O sentinela das APIs</p><div class="card-bottom"><span>JAVA • BACK-END</span><span class="card-arrow">↗</span></div></article>
+        <article class="tech-card reveal" data-category="front-end" style="--accent:#4ade80;--delay:540ms"><div class="card-top"><span class="power-icon">V</span><span class="power-level">10 / FRONT-END</span></div><div class="avatar avatar-vue"><span>⌄</span></div><h3>Vue.js</h3><p>O herói das interfaces</p><div class="card-bottom"><span>COMPONENTES • UI</span><span class="card-arrow">↗</span></div></article>
+      </div>
+      <p class="tech-note"><span>✦</span> Os personagens são metáforas visuais para as tecnologias — um time criado para representar seu universo de desenvolvimento.</p>
+    </section>
+
+    <section class="about section-wrap" id="sobre">
+      <div class="about-symbol reveal"><div class="symbol-ring"><span>&lt;/&gt;</span></div><span class="symbol-label">CURIOSIDADE • PRÁTICA • EVOLUÇÃO</span></div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">QUEM ESTÁ POR TRÁS DO CÓDIGO</p>
+        <h2>Construindo hoje.<br><span class="gradient-text">Evoluindo sempre.</span></h2>
+        <p>Sou Giovani Messias, desenvolvedor web interessado em criar aplicações úteis, aprender novas ferramentas e transformar desafios em soluções. Tenho foco em PHP e desenvolvimento web, com estudos e projetos que conectam back-end, banco de dados e interfaces.</p>
+        <p>Busco uma oportunidade para colaborar com uma equipe, aprender com desafios reais e contribuir com responsabilidade e dedicação.</p>
+        <div class="about-pills"><span>Aprendizado contínuo</span><span>Resolução de problemas</span><span>Trabalho em equipe</span></div>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contato">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="eyebrow">PRÓXIMA MISSÃO</p>
+          <h2>Vamos construir<br><span class="gradient-text">algo incrível?</span></h2>
+          <p>Estou aberto a oportunidades como Desenvolvedor PHP Júnior, Laravel Júnior ou Desenvolvedor Web Júnior.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://github.com/giovanimessi" target="_blank" rel="noreferrer">Meu GitHub ↗</a>
+          
+          <!-- Botão flutuante do WhatsApp -->
+          <a href="https://wa.me/5573999606582?text=Ol%C3%A1%2C%20Giovani!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Entre em contato comigo pelo WhatsApp" title="Fale comigo pelo WhatsApp">
+            <svg viewBox="0 0 32 32" aria-hidden="true">
+              <path fill="currentColor" d="M16 .8A15.1 15.1 0 0 0 3.1 23.7L1 31l7.5-2A15.2 15.2 0 1 0 16 .8zm0 27.6c-2.4 0-4.7-.7-6.7-2l-.5-.3-4.4 1.2 1.2-4.3-.3-.5A12.4 12.4 0 1 1 16 28.4zm6.8-9.3c-.4-.2-2.2-1.1-2.6-1.2-.4-.1-.6-.2-.9.2-.3.4-1 1.2-1.2 1.5-.2.3-.5.3-.9.1-.4-.2-1.7-.6-3.2-2-1.2-1.1-2-2.4-2.2-2.8-.2-.4 0-.6.2-.8l.6-.7c.2-.2.3-.4.4-.7.1-.2 0-.5 0-.7-.1-.2-.9-2-1.2-2.7-.3-.7-.6-.6-.9-.6h-.8c-.3 0-.7.1-1.1.5-.4.4-1.4 1.3-1.4 3.1s1.4 3.5 1.6 3.8c.2.2 2.8 4.3 6.8 6 .9.4 1.6.6 2.1.7.9.3 1.7.2 2.3.1.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.7.2-1.8-.1-.2-.4-.3-.8-.5z"/>
+            </svg>
+          </a>
+
+          <a class="button button-ghost" href="https://www.linkedin.com/in/giovani-moura-messias-098565106/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <button class="button button-ghost copy-email" type="button" data-email="giovanimouradev@gmail.com">Copiar e-mail ⧉</button>
+          <p class="email-feedback" aria-live="polite"></p>
+        </div>
+        <div class="contact-glow"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#inicio"><span class="brand-mark">GM</span><span>GIOVANI<span class="brand-accent">.DEV</span></span></a>
+    <p>Feito com curiosidade, código e café.</p>
+    <span>© <span id="year"></span> Giovani Messias</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
